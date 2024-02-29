@@ -30,3 +30,19 @@ class Solution {
     }
 }
 
+
+// method 2   by slicing
+
+class Solution {
+    int print2largest(int arr[], int n) {
+        // code here
+        
+        if(n < 2){
+            return -1;
+        }
+
+        Arrays.sort(arr);
+
+        return arr[n - 2];
+    }
+}    
