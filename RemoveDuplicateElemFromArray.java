@@ -18,3 +18,4 @@ class Solution {
 
 
 //time complexity of this optimal solution is O(N)
+//two pointer technique is used here and elements are compared.
